@@ -1,11 +1,12 @@
 .navbar {
-  height:auto;
+  height:100px;
   display: flex;
   border-radius: 44rem;
   background-color: #296FA9;
   align-items: center;
   padding-left: 1rem;
   justify-content: space-between;
+ width: 100%;
 }
 
 body {
@@ -18,6 +19,7 @@ body {
   background-size: cover;
   font-family: 'Poppins', sans-serif;
   color: #160d08;
+  place-items:center;
 }
 
 .EXPPrev {
@@ -42,7 +44,7 @@ ul {
 }
 
 a {
-  font-size: px;
+  font-size: 10px;
   color: white;
   text-decoration: none;
 
@@ -79,7 +81,8 @@ a {
   border-radius: 44rem;
   background-color: #FFFFFF;
   align-items: center;
-  padding: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
   color: #0384D8;
   font-size: 26px;
 }
@@ -121,8 +124,9 @@ a {
   justify-items: end;
   margin-left:37%;
   margin-top:5%;
-  height: 700px;
-  width: 1000px;
+  height: 650px;
+  width: 900px;
+  
 }
 .textU {
   display: flex;
@@ -136,7 +140,7 @@ a {
   display: flex;
   width: 400px;
   margin-left: -105rem;
-  margin-top: 600px;
+  margin-top: 10%;
   font-size: 35px;
 }
 
@@ -181,7 +185,7 @@ a {
 
 .container .card .face.face1 {
   position: relative;
-  background: #1F639b;
+  background: #045597;
   display: flex;
   justify-content: space-evenly;
   align-content: center;
@@ -297,9 +301,9 @@ a {
   font-size: 35px;
 }
 .ag-format-container {
-  width: 1600px;
-  margin: 25% auto;
-  height: 450px;
+  width: 1400px;
+  margin: 40% auto;
+
 
   
 }
@@ -313,6 +317,8 @@ a {
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   padding: 50px 0;
+  height: 550px;
+  justify-content: center;
 }
 .ag-courses_item {
   -ms-flex-preferred-size: calc(33.33333% - 30px);
@@ -438,4 +444,55 @@ a {
   .ag-courses-item_date-box {
     font-size: 16px;
   }
+}
+.aQ1 {
+  margin-top: 50px;
+  display: flex;
+  background-color: #296FA9;
+  width: 90%;
+  align-items: flex-start;
+  height: 900px;
+  border-radius: 80px;
+  justify-content: space-around;
+}
+
+  body{
+    margin:0;
+    height:100vh;
+    display:grid;
+    place-items:center;
+  }
+  .gallery{
+    position:relative;
+    width:300px;
+    height:200px;
+    transform-style:preserve-3d;
+    animation:rotate 25s linear infinite;
+  }
+  
+  @keyframes rotate{
+    from{
+      transform:perspective(1200px) rotateY(0deg);
+    }
+    
+    to{
+      transform:perspective(1200px) rotateY(360deg);
+    }
+  }
+  
+  .gallery span{
+    position:absolute;
+    width:100%;
+    height:100%;
+    transform-origin:center;
+    transform-style:preserve-3d;
+    transform:rotateY(calc(var(--i) * 45deg)) translateZ(380px);
+  }
+  
+  .gallery span img{
+    position:absolute;
+    width:100%;
+    height:100%;
+    object-fit:cover;
+  
 }
