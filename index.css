@@ -637,26 +637,119 @@ li:hover {
   /* Общие стили, применяемые до добавления медиа-запросов */
 
 /* Стили для планшетов */
-@media only screen and (max-width: 768px) {
- 
+@media only screen and (max-width: 768px){
+  
+  
 }
 
 /* Стили для мобильных телефонов */
 @media only screen and (max-width: 480px) {
- .navbar {
-  height:100px;
-  border-radius: 44rem;
-  background-color: #296FA9;
-  width: 93%;
-}
+  .navbar{display: none;}
+  .bar{display: none;}
+  .EXPPrev {
+    display: flex;
+    gap: none;
+    padding-top: 0px;
+    align-items: center;
+    align-content: center;
+  }
+  
+  .SFEDU {
+    display: flex;
+    font-size: 25px;
+    text-align: center;
+  }
+  ul {
+    font-size: 10px;
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
 
-.bar{
-  display: flex;
-  height: 100%;
-  align-items: center;
-  padding-left: 1rem;
-  justify-content: space-between;
-}
+  }
+  
+  a {
+    font-size: 10px;
+    color: white;
+    text-decoration: none;
+  
+  }
+  
+  .navLeft {display: none;}
+  .navRight {display: none;}
+  .buclet {display: none;}
+  .buclet:hover {display: none;}
+  .registr {display: none;}
+  .registr:hover {display: none;}
+  .programm {display: none;}
+  .programm:hover {display: none;}
+  .im1 {display: none;}
+  .rama{display: none;}
+ 
+li{display: none;}
+li:hover {display: none;}
+
+  .SFEDu {display: none;}
+  
+  .podSfedu {display: none;}
+  
+  .yfuS{
+    display:flex;
+    border-radius:10%;
+    justify-items: end;
+    margin-left:45%;
+    margin-top:5%;
+    height: 650px;
+    width: 900px;
+    
+  }
+  .textU {
+    display: flex;
+    width: 1000px;
+    padding-left: 650px;
+    margin-top: -250px;
+    margin-right: 10%;
+    text-align: center;
+  }
+  
+  .textPod {display: none;}
+  
+  .clishe {
+    background: #296FA9;
+    border-radius: 15%;
+    font-size: 15px;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .head1 {display: none;}
+
+  .conteiner {display: none;}
+
+  .aQ1 {display: none;}
+
+  .card {display: none;}
+
+  .face.face1 {display: none;}
+
+  .content {display: none;}
+
+  .face.face2 {display: none;}
+
+  .card {display: none;}
+
+  .ag-format-container {display: none;}
+
+  .galleryfull {display: none;}
+
+  .contacts {display: none;}
+
+  .cartbox {display: none;}
+
+  .logos {display: none;}
+
+  .footer {display: none;}
+
 }
 
 /* При необходимости добавьте дополнительные медиа-запросы для больших или меньших разрешений */
