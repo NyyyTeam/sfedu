@@ -8,7 +8,7 @@ html, body, :root {
   height:100px;
   border-radius: 44rem;
   background-color: #296FA9;
-  width: 100vw;
+  width: 93%;
 }
 
 .bar{
@@ -62,67 +62,114 @@ html, body, :root {
   
   .navLeft {
     display: flex;
-    gap: 10rem;
+    gap: 80px;
     color: #fff;
   
   }
   
   .navRight {
     display: flex;
-    gap: 100px;
+    gap: 70px;
     border-radius: 44rem;
     background-color: #D9D9D9;
     align-items: center;
     height: 100%;
     padding-left: 10px;
-    justify-content: space-between;
+    
   }
   
   .buclet {
     color: #000000;
-    padding: 20px;
     font-size: 26px;
+    color: #000000; /* Цвет текста */
+    background: #D9D9D9; /* Цвет фона */
+    padding:30px 65px 30px 30px  ; /* Поля вокруг текста */
+    transition: 0.5s linear; /* Время изменения */
+    border-radius: 44rem;
+    margin: -10px;
+    transition: 0.5s; /* Время эффекта */
+  text-align: center; 
+  }
+  .buclet:hover {
+    color: #000000; /* Цвет текста */
+    background: hsl(0, 0%, 100%); /* Цвет фона */
+     transform: scale(1.1);
+     box-shadow: 0 20px 50px rgba(0, 0, 0, .8);
   }
   
   .registr {
     display: flex;
-    gap: 100px;
     height: 100%;
     border-radius: 44rem;
-    background-color: #FFFFFF;
     align-items: center;
-    padding-left: 20px;
-    padding-right: 20px;
-    color: #0384D8;
     font-size: 26px;
-  }
+    color: #0097fc; /* Цвет текста */
+    background:#D9D9D9 ; /* Цвет фона */
+    padding:0px 30px 0px 40px; /* Поля вокруг текста */
+    transition: 0.5s linear; /* Время изменения */
+    height: 90px;
+    transition: 0.5s; /* Время эффекта */
+  text-align: center; 
+    
   
+}
+.registr:hover {
+    color: #1186d4; /* Цвет текста */
+    background: #ffffff; /* Цвет фона */
+    transform: scale(1.1);
+    box-shadow: 0 20px 50px rgba(0, 0, 0, .8);
+}
   .programm {
     color: #000000;
     font-size: 26px;
+    color: #000000; /* Цвет текста */
+    background: #D9D9D9; /* Цвет фона */
+    padding:30px; /* Поля вокруг текста */
+    transition: 0.5s linear; /* Время изменения */
+    border-radius: 44rem;
+    transition: 0.5s; /* Время эффекта */
+  text-align: center; 
   }
-  
+  .programm:hover {
+    color: #000000; /* Цвет текста */
+    background: hsl(0, 0%, 100%); /* Цвет фона */
+    transform: scale(1.1);
+    box-shadow: 0 20px 50px rgba(0, 0, 0, .8);
+  }
   .im1 {
     display: flex;
     flex-direction: column;
-    height: 1279px;
-    padding-left: 120px;
-    background-image: url('https://i.postimg.cc/25Jb10XH/Remove-bg-ai-1708353664233.png');
+    height: 1270px;
+    background-image: url(https://i.postimg.cc/25Jb10XH/Remove-bg-ai-1708353664233.png);
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: top;
+    width: 90%;
   }
-.head2{
-  color: #000000;
-  font-size: 30px;
+   .rama{
+    display: flex;
+    height: 685px;
+    width: 890px;
+    margin-top:-645px;
+    background-color: #045597;
+    border-radius:10% ;
+    margin-left: 43%;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, .8);
+   }
+ 
+li{
+  transition: 0.5s; /* Время эффекта */
+  text-align: center; 
 }
-  
+li:hover {
+  transform: scale(1.1); /* Увеличиваем масштаб */
+}
 
-  
   .SFEDu {
     display: flex;
     width: 370px;
     font-size: 40px;
+    margin-left:5%;
   }
   
   .podSfedu {
@@ -130,15 +177,13 @@ html, body, :root {
     width: 350px;
     font-size: 40px;
     margin-top: -40px;
-  
-  
   }
   
   .yfuS{
     display:flex;
     border-radius:10%;
     justify-items: end;
-    margin-left:37%;
+    margin-left:45%;
     margin-top:5%;
     height: 650px;
     width: 900px;
@@ -149,15 +194,15 @@ html, body, :root {
     width: 1000px;
     padding-left: 650px;
     margin-top: -250px;
-    margin-right: 300px;
+    margin-right: 10%;
     text-align: center;
   }
   
   .textPod {
     display: flex;
     width: 400px;
-    margin-left: -1400px;
-    margin-top: -750px;
+    margin-right: 60%;
+    margin-top: -45%;
     font-size: 35px;
 
   }
@@ -170,7 +215,7 @@ html, body, :root {
     color: #ffffff;
     display: flex;
     flex-direction: column;
-    margin-top:200px;
+    margin-top:0%;
     margin-left: 5%;
     margin-right: 5%;
   }
@@ -308,13 +353,6 @@ html, body, :root {
     box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.5);
   
   }
-  
-  @media (max-width: 1400px) {}
-  
-  @media (max-width: 990px) {}
-  
-  @media (max-width: 770px) {}
-  
   .content {
     font-size: 35px;
   }
@@ -426,9 +464,6 @@ html, body, :root {
   .ag-courses_item:nth-child(6n) .ag-courses-item_bg {
     background-color: #121212;
   }
-  
-  
-  
   @media only screen and (max-width: 979px) {
     .ag-courses_item {
       -ms-flex-preferred-size: calc(50% - 30px);
@@ -438,7 +473,6 @@ html, body, :root {
       font-size: 24px;
     }
   }
-  
   @media only screen and (max-width: 767px) {
     .ag-format-container {
       width: 96%;
@@ -481,10 +515,12 @@ html, body, :root {
       place-items:center;
     }
     .containerS {
+        display:flex;     
         position: relative;
         width: 320px;
         margin: 100px auto 0 auto;
         perspective: 1000px;
+
       }
       
       .carousel {
@@ -597,3 +633,30 @@ html, body, :root {
   .contacts{
     margin-left: 50px;
   }
+
+  /* Общие стили, применяемые до добавления медиа-запросов */
+
+/* Стили для планшетов */
+@media only screen and (max-width: 768px) {
+ 
+}
+
+/* Стили для мобильных телефонов */
+@media only screen and (max-width: 480px) {
+ .navbar {
+  height:100px;
+  border-radius: 44rem;
+  background-color: #296FA9;
+  width: 93%;
+}
+
+.bar{
+  display: flex;
+  height: 100%;
+  align-items: center;
+  padding-left: 1rem;
+  justify-content: space-between;
+}
+}
+
+/* При необходимости добавьте дополнительные медиа-запросы для больших или меньших разрешений */
